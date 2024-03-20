@@ -1,0 +1,1 @@
+ALTER TABLE `tbltransactiontrail` ADD `isForExtraction` INT(1) NOT NULL COMMENT '1-Yes;0-No' AFTER `trailStatus`;
